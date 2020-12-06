@@ -1,0 +1,4 @@
+create database product_db;
+create table product(productId int primary key,productName varchar(60),quantityPerUnit varchar(60),
+unitPrice double,unitInStock double,unitsOnOrder double,reorderLevel double,discontinued boolean);
+insert into product values(1,"Chai","10 Boxes x 20 bags",18,39,0,10,false)
